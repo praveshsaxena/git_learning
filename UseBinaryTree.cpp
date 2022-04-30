@@ -9,10 +9,10 @@ void print(BinaryTreeNode<int>* root){
     return;
     cout<<root->data;
     if(root->left->data!=NULL){
-        cout<<" : L "<<root->left->data<<" ";
+        cout<<" : Left "<<root->left->data<<" ";
     }
     if(root->right->data!=NULL){
-        cout<<" : R "<<root->right->data<<" ";
+        cout<<" : Right "<<root->right->data<<" ";
     }
     cout<<endl;
     print(root->left);
