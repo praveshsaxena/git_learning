@@ -12,7 +12,7 @@ void print(BinaryTreeNode<int>* root){
         cout<<" : L "<<root->left->data<<" ";
     }
     if(root->right->data!=NULL){
-        cout<<" : R "<<root->right->data;
+        cout<<" : R "<<root->right->data<<" ";
     }
     cout<<endl;
     print(root->left);
